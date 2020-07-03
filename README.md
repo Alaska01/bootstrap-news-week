@@ -12,9 +12,9 @@ The page tries to replicate as much as possible the NewsWeek Web page.
 - CSS
 - BootStrap
 
-## Live Demo!!
+## Live Demo!!!!
 
-[Live Demo Link](https://rawcdn.githack.com/Alaska01/bootstrap/56e6747b8ec54ce82d456ffd0fcc05ff5593cc4f/index.html)
+[Live Demo Link](https://github.com/Alaska01/bootstrap-news-week/blob/newsweek-branch/index.html)
 
 ## Author
 
