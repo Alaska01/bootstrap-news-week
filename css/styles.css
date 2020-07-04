@@ -1,0 +1,508 @@
+.top-page {
+  height: 100px;
+}
+
+.editors-pic-img {
+  width: 35px;
+  height: 35px;
+}
+
+.height-70-px {
+  height: 70px;
+}
+
+.w-100-h-230 {
+  height: 100%;
+  width: 100%;
+}
+
+.btn-linear {
+  border-radius: 10px;
+  width: 150px;
+}
+
+.nav-color {
+  background-color: #f72210;
+  opacity: 1;
+}
+
+.trapezoid-1 {
+  border-top: 30px solid #f72210;
+  border-left: 25px solid transparent;
+  height: 0;
+  width: 70px;
+  position: absolute;
+  right: 0;
+  top: 87px;
+  z-index: 11;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.first-debate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 5px solid red;
+  border-bottom: 1px solid #ddd;
+}
+
+.second-debate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  border-bottom: 5px solid blue;
+  margin-top: 1px;
+  padding-top: 10px;
+}
+
+.auto-height {
+  height: auto;
+}
+
+.auto-width {
+  width: auto;
+}
+
+.w-150-px {
+  width: 150px;
+}
+
+.debator-img {
+  width: 100%;
+  height: 70%;
+}
+
+.debate-text {
+  line-height: 1em;
+}
+
+.main-section {
+  height: auto;
+  background: #f4f5f6;
+  margin: 0 auto;
+}
+
+.p-text {
+  font-weight: 900;
+}
+
+.p-text:hover {
+  color: red;
+}
+
+.gray-line {
+  border-top: lightgray 0.4px solid;
+  width: 95%;
+}
+
+.gray-line-2 {
+  border-top: lightgray 0.4px solid;
+  width: 97%;
+}
+
+.opinion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-letter {
+  background: #f4f5f6;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.news-letter img {
+  width: 10%;
+  height: 10%;
+}
+
+.news-letter-img {
+  width: 2%;
+  height: 5%;
+}
+
+.us-pst {
+  padding: 2px 0;
+  color: red;
+  font-weight: 800;
+}
+
+h5,
+h6 {
+  font-weight: 900;
+}
+
+h5:hover,
+h6:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.features {
+  display: inline-block;
+}
+
+.features:hover {
+  background-color: lightgray;
+}
+
+.news-letter button {
+  background: #f22213;
+}
+
+.vs-style-container {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+.vs-style-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 100%;
+  background-color: #333;
+  padding: 3px;
+}
+
+.bottom-text-img {
+  position: relative;
+}
+
+.bottom-text-img-positn {
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  color: #f72824;
+  background-color: #e7e7e7;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.white {
+  background-color: white;
+}
+
+.movement-1 {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+
+.s-icon {
+  padding: 5px;
+}
+
+.s-icon-1:hover {
+  color: #3b5998;
+}
+
+.s-icon-2:hover {
+  color: #00acee;
+}
+
+.s-icon-3:hover {
+  color: #3f729b;
+}
+
+.s-icon-5:hover {
+  color: #0e76a8;
+}
+
+.s-height {
+  height: 60px;
+}
+
+.news-week {
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+nav ul li .nav-sport {
+  padding: 0 0.8rem;
+  box-sizing: border-box;
+}
+
+.pic2-xx {
+  width: 70%;
+}
+
+.first-debate,
+.second-debate {
+  height: 150px;
+}
+
+.btn-1 {
+  padding: 0;
+}
+
+.hide-1 {
+  display: none;
+}
+
+.display-all {
+  display: inline-block;
+}
+
+.breath {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.d-image {
+  width: 300px;
+  height: 100px;
+}
+
+.newsweek-img-nav {
+  width: 250px;
+  height: 70px;
+  margin-left: 5px;
+  margin-top: 10%;
+}
+
+/* **************************TABLETS*********************************** */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .p-text {
+    font-weight: 500;
+  }
+
+  .top-page {
+    height: 50px;
+  }
+
+  .w-150-px {
+    width: 150px;
+  }
+
+  .d-image {
+    width: 200px;
+    height: 40px;
+  }
+
+  .newsweek-img-nav {
+    width: 200px;
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 2%;
+  }
+
+  .tab-center {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .tab-center-2 {
+    width: 36%;
+    margin: 0 auto;
+  }
+
+  .display-all {
+    display: flex;
+  }
+
+  .hide-1 {
+    display: none;
+  }
+
+  .auto-width {
+    width: auto;
+  }
+
+  .first-debate,
+  .second-debate {
+    height: 110px;
+  }
+}
+
+/* ********************* MOBILE****************** */
+
+@media only screen and (max-width: 767px) {
+  .top-page {
+    height: 50px;
+  }
+
+  .navigation-1 {
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    z-index: 900000;
+    background-color: red;
+  }
+
+  .w-150-px {
+    width: 150px;
+  }
+
+  .d-image {
+    width: 100px;
+    height: 40px;
+  }
+
+  .newsweek-img-nav {
+    width: 100px;
+    height: 40px;
+    margin-left: 5px;
+  }
+
+  .nav-height-icon {
+    height: 25px;
+  }
+
+  .small-btn-1 {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .first {
+    order: 1;
+  }
+
+  .second {
+    order: 2;
+  }
+
+  .third {
+    order: 3;
+  }
+
+  .forth {
+    order: 4;
+  }
+
+  .unhide-1 {
+    display: inline-block;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .flex-small {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsweek-m {
+    height: 100px;
+    width: 130;
+  }
+
+  .ft-1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .breath {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .align-prp {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .sub-padding {
+    margin: 0 10px;
+  }
+
+  .flex-mb {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+  }
+
+  .movement-2 {
+    position: absolute;
+    margin-left: -40px;
+    z-index: 10;
+  }
+
+  .movement-3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    z-index: 20;
+    position: absolute;
+  }
+
+  .d-front {
+    font-weight: 900;
+    z-index: 30;
+    font-size: 17px;
+    align-self: flex-end;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .d-flex-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+  }
+
+  .first-debate,
+  .second-debate {
+    height: 120px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1400px) {
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .p-text {
+    font-weight: 500;
+  }
+
+  main {
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .navigation-container {
+    height: auto;
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
+  }
+}
