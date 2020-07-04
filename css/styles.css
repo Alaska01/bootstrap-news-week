@@ -177,7 +177,7 @@ h6:hover {
   color: white;
   border-radius: 100%;
   background-color: #333;
-  padding: 1px;
+  padding: 3px;
 }
 
 .bottom-text-img {
@@ -266,8 +266,29 @@ nav ul li .nav-sport {
   margin: 0 auto;
 }
 
+.d-image {
+  width: 300px;
+  height: 100px;
+}
+
+.newsweek-img-nav {
+  width: 250px;
+  height: 70px;
+  margin-left: 5px;
+  margin-top: 10%;
+}
+
 /* **************************TABLETS*********************************** */
 @media only screen and (max-width: 991px) and (min-width: 768px) {
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .p-text {
+    font-weight: 500;
+  }
+
   .top-page {
     height: 50px;
   }
@@ -276,10 +297,16 @@ nav ul li .nav-sport {
     width: 150px;
   }
 
+  .d-image {
+    width: 200px;
+    height: 40px;
+  }
+
   .newsweek-img-nav {
     width: 200px;
     height: 40px;
     margin-left: 5px;
+    margin-top: 2%;
   }
 
   .tab-center {
@@ -304,6 +331,10 @@ nav ul li .nav-sport {
     width: auto;
   }
 
+  .first-debate,
+  .second-debate {
+    height: 110px;
+  }
 }
 
 /* ********************* MOBILE****************** */
@@ -315,6 +346,11 @@ nav ul li .nav-sport {
 
   .w-150-px {
     width: 150px;
+  }
+
+  .d-image {
+    width: 100px;
+    height: 40px;
   }
 
   .newsweek-img-nav {
@@ -380,5 +416,73 @@ nav ul li .nav-sport {
   .align-prp {
     width: 95%;
     margin: 0 auto;
+  }
+
+  .sub-padding {
+    margin: 0 10px;
+  }
+
+  .flex-mb {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+  }
+
+  .movement-2 {
+    position: absolute;
+    margin-left: -40px;
+    z-index: 10;
+  }
+
+  .movement-3 {
+    margin-top: 20px;
+    margin-left: 40px;
+    z-index: 20;
+    position: absolute;
+  }
+
+  .d-front {
+    font-weight: 900;
+    z-index: 30;
+    font-size: 17px;
+    align-self: flex-end;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .d-flex-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cent-icon-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+  }
+
+  .first-debate,
+  .second-debate {
+    height: 100px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1400px) {
+  .font-reduction {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .p-text {
+    font-weight: 500;
   }
 }

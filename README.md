@@ -2,7 +2,7 @@
 
 In this project, Twitter’s Bootstrap framework was utilised to build the Newsweek website.
 
-Project Design Screenshot : ![Project Design](images/newsweek-project-page.JPG)
+Project Design Screenshot : ![Project Design](images/newsweek-project-page.jpg)
 
 The page tries to replicate as much as possible the NewsWeek Web page.
 
@@ -14,7 +14,7 @@ The page tries to replicate as much as possible the NewsWeek Web page.
 
 ## Live Demo!!!!
 
-[Live Demo Link](https://github.com/Alaska01/bootstrap-news-week/blob/newsweek-branch/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alaska01/bootstrap-news-week/e4e083e5cc0967f191446134cd3182113d489c21/index.html)
 
 ## Author
 
