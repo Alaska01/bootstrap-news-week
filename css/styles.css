@@ -50,7 +50,7 @@ a:hover {
 .first-debate {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   border-top: 5px solid red;
   border-bottom: 1px solid #ddd;
 }
@@ -58,7 +58,7 @@ a:hover {
 .second-debate {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   border-top: 1px solid #ddd;
   border-bottom: 5px solid blue;
   margin-top: 1px;
@@ -344,6 +344,14 @@ nav ul li .nav-sport {
     height: 50px;
   }
 
+  .navigation-1 {
+    position: fixed;
+    top: 0;
+    opacity: 1;
+    z-index: 200;
+    background-color: red;
+  }
+
   .w-150-px {
     width: 150px;
   }
@@ -484,5 +492,17 @@ nav ul li .nav-sport {
 
   .p-text {
     font-weight: 500;
+  }
+
+  main {
+    width: 95vw;
+    margin: 0 auto;
+  }
+
+  .navigation-container {
+    height: auto;
+    width: 95vw;
+    margin: 0 auto;
+    position: relative;
   }
 }
