@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-news-week",
+  "version": "1.0.0",
+  "description": "In this project, Twitter’s Bootstrap framework was utilised to build the Newsweek website.",
+  "main": "index.js",
+  "dependencies": {
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "hint": "^6.0.6",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alaska01/bootstrap-news-week.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alaska01/bootstrap-news-week/issues"
+  },
+  "homepage": "https://github.com/Alaska01/bootstrap-news-week#readme"
+}
